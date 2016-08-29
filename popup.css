@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.quote {
+  margin: 40px;
+  margin-left: 800px;
+}
+
+.QuoteModal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  transition: opacity 300ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.QuoteModal:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup_modal {
+  position: relative;
+  margin: 70px auto;
+  padding: 20px;
+  background: white;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 10px 10px #eee;
+  width: 500px;
+}
+
+.popup_modal .fclose {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 20px;
+  color: black;
+}
