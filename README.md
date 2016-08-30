@@ -8,9 +8,10 @@
 <p>Include the stylessheets in your <head> part.</p>
 <h4> Stylesheets</h4>
 <p>
-<head>
+<!--<head>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
-  <<link rel="stylesheet" href="css/popup.css" type="text/css">
-</head></p>
+  <link rel="stylesheet" href="css/popup.css" type="text/css">
+</head>-->
+</p>
 <p> If you want you can copy and paste the CSS code from popup.css file into the main bootstrap.css file too. This will save you one extra css file.</p>
